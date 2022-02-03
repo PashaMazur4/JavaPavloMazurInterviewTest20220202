@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class CheckName {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter your name:");
+        System.out.println("Введите ваше имя:");
         String str = in.nextLine();
         if (str.equals("Вячеслав")) {
             System.out.println("Привет, Вячеслав");
